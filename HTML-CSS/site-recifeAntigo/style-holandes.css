@@ -16,4 +16,33 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    color: wheat;
+}
+
+.img-ponte {
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 600px;    
+    margin: 0 auto;
+    border: 1px solid #000; 
+}
+
+.flexivel {
+    display: flex;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.horizontal { 
+    flex-direction: row;
 }
